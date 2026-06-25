@@ -47,14 +47,14 @@ const steps = [
   { n: "4", t: "Remove in morning", d: "Discard and wash feet to feel lighter." },
 ];
 
-import review1 from "@/assets/review-1.png.asset.json";
-import review2 from "@/assets/review-2.png.asset.json";
-import review3 from "@/assets/review-3.png.asset.json";
+import review1 from "@/assets/review-1.png";
+import review2 from "@/assets/review-2.png";
+import review3 from "@/assets/review-3.png";
 
 const testimonials = [
-  { q: "Raat ko lagaya, subah feet ekdum halke feel hue. Neend bhi acchi aayi.", n: "Sunita Sharma", c: "Jaipur", t: "Restful sleep", img: review1.url },
-  { q: "Din bhar khade rehne ke baad ye patches mere liye relief ban gaye hain.", n: "Rajesh Iyer", c: "Kochi", t: "Refreshed feet", img: review2.url },
-  { q: "Plant-based ingredients hain, isliye family ke saath use kar rahi hoon.", n: "Anita Desai", c: "Pune", t: "Natural & safe", img: review3.url },
+  { q: "Raat ko lagaya, subah feet ekdum halke feel hue. Neend bhi acchi aayi.", n: "Sunita Sharma", c: "Jaipur", t: "Restful sleep", img: review1 },
+  { q: "Din bhar khade rehne ke baad ye patches mere liye relief ban gaye hain.", n: "Rajesh Iyer", c: "Kochi", t: "Refreshed feet", img: review2 },
+  { q: "Plant-based ingredients hain, isliye family ke saath use kar rahi hoon.", n: "Anita Desai", c: "Pune", t: "Natural & safe", img: review3 },
 ];
 
 const faqs = [
