@@ -7,7 +7,7 @@ import productBox from "@/assets/foot-detox-box.jpg";
 import feetWithPatches from "@/assets/feet-with-patches.jpg";
 import tiredWoman from "@/assets/tired-woman.jpg";
 import brandLogo from "@/assets/jeevan-tatva-logo.png";
-import transformation from "@/assets/transformation.png.asset.json";
+import transformation from "@/assets/transformation.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -145,7 +145,7 @@ function Hero() {
             Visarth Veda Foot Detox Patches use a plant-based blend of Bamboo Vinegar, Tourmaline and Wormwood to refresh tired feet, support restful sleep and a gentle natural detox — overnight.
           </p>
           <div className="mt-6 max-w-md mx-auto md:mx-0">
-            <img src={transformation.url} alt="Real transformation — before and after using Visarth Veda Foot Detox Patch" loading="lazy" className="rounded-2xl shadow-[var(--shadow-soft)] border border-border w-full object-cover" />
+            <img src={transformation} alt="Real transformation — before and after using Visarth Veda Foot Detox Patch" loading="lazy" className="rounded-2xl shadow-[var(--shadow-soft)] border border-border w-full object-cover" />
             <p className="mt-2 text-xs text-muted-foreground text-center md:text-left italic">Real results from a consistent overnight routine.</p>
           </div>
           <div className="mt-6 flex flex-wrap gap-2 justify-center md:justify-start">
